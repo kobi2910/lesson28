@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>מזג אוויר</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="wether.js"></script>
+</head>
+<body onload="refreshWether()"> 
+    <div id= "headLine">
+        <h1 style="text-align: center; padding: 30px;">מזג אוויר בערים נבחרות</h1>
+    </div>
+    <div id = "mainCitys">
+        <div id="city" >ירושלים
+        <p id="JRU"></p>
+        </div>
+        <div id="city">לונדון
+            <p id="London"></p>
+        </div>
+        <div  id="city">ניו יורק
+        <p id="NYU"></p>
+        </div>
+    </div>
+    <br>
+    <div style="text-align: center;">
+        <input id= "citySelector" type="text" placeholder="Enter City">
+        <div style="margin: 20px; border: solid;padding: 40px">
+            <p id="City"></p>
+            <p id="CityTemp"></p>
+        </div>
+    </div>
+    <div id="refresh">
+        <button onclick="refreshWetherByCity()">refresh</button>
+    </div>
+</body>
+</html>
