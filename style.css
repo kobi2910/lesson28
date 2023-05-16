@@ -1,0 +1,28 @@
+#mainCitys {
+    border: solid 2px;
+    margin: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#city {
+    margin: 5%;
+    border: 2px solid;
+    text-align: center;
+    padding: 2%;
+}
+#headLine {
+    background-color: greenyellow; 
+    height: 150px
+}
+body {
+    background-color: aquamarine;
+}
+#refresh {
+    text-align: center 
+}
+button {
+    background-color: blueviolet; 
+    border-radius: 5px; 
+    border: none
+}
