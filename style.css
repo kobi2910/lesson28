@@ -1,28 +1,62 @@
-#mainCitys {
-    border: solid 2px;
-    margin: 10%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-#city {
-    margin: 5%;
-    border: 2px solid;
-    text-align: center;
-    padding: 2%;
-}
-#headLine {
-    background-color: greenyellow; 
-    height: 150px
-}
+/* style.css */
+
 body {
-    background-color: aquamarine;
-}
-#refresh {
-    text-align: center 
-}
-button {
-    background-color: blueviolet; 
-    border-radius: 5px; 
-    border: none
-}
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-image: url('backgruond.jpg'); 
+    background-size: cover;
+  }
+  
+  #headLine {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  #mainCitys {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .city {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+  }
+  
+  .city img {
+    width: 80px; /* Adjust the image size as needed */
+    height: 80px; /* Adjust the image size as needed */
+    margin-bottom: 10px;
+  }
+  
+  #citySelector {
+    width: 200px;
+    padding: 10px;
+  }
+  
+  #refresh {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
